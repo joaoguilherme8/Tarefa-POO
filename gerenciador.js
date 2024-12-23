@@ -13,7 +13,7 @@ class gerenciadorDeTarefas {
         if (tarefa) {
             this._tarefas.push(tarefa)
         } else {
-            console.log("A tarefa deve ser uma instância da classe Tarefa")
+            console.log("A tarefa deve pertencer a classe tarefa")
         }
     }
 
